@@ -96,6 +96,10 @@ class Acceptance(unittest.TestCase):
         c=copy.deepcopy(CONTRACT);c['periods']['current']['start']='2026-01-31'
         with self.assertRaises(ValueError):self.case(contract=c)
 
+    def test_reversed_periods(self):
+        c=copy.deepcopy(CONTRACT);p=c['periods'];p['prior'],p['current']=p['current'],p['prior']
+        with self.assertRaises(ValueError):self.case(contract=c)
+
     def test_nonpositive_baselines(self):
         for old in ('0','-100'):
             text=f'line_id,date,product,quantity,revenue,cost,currency\n1,2026-01-01,A,1,{old},0,USD\n2,2026-02-01,A,1,100,50,USD\n'

@@ -111,6 +111,8 @@ def validate_contract(c):
         ranges[key] = (start, end)
     if max(ranges['prior'][0], ranges['current'][0]) <= min(ranges['prior'][1], ranges['current'][1]):
         raise ValueError('comparison periods must not overlap')
+    if ranges['prior'][1] >= ranges['current'][0]:
+        raise ValueError('prior period must end before current period starts')
     return ranges
 
 

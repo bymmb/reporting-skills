@@ -2,7 +2,9 @@
 
 Python 3.10+, standard library. Inputs: UTF-8 normalized CSV and explicit JSON contract. Required mappings: date, product, quantity, revenue, cost, and currency or explicit default_currency. Optional unique_id must truly be unique at row grain.
 
-Declare inclusive non-overlapping prior/current date ranges, labels, date_format, decimal_separator, and thousands_separator. Reject malformed numbers, ambiguous dates, nonfinite values, and blank required fields.
+Declare inclusive non-overlapping prior/current date ranges (prior must end before current starts), labels, date_format, decimal_separator, and thousands_separator. Reject malformed numbers, dates that do not match date_format, nonfinite values, and blank required fields. A date_format such as %d/%m/%Y cannot detect day/month swaps in the source; confirm the convention before running.
+
+Run scripts/check_examples.py to execute the acceptance cases.
 
 Set quantity_unit only when all products use comparable units; otherwise suppress quantities and volume/mix bridge. Output decimals as strings. Preserve source SHA-256, contract SHA-256, row counts and source lines.
 
