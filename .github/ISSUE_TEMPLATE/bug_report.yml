@@ -1,0 +1,40 @@
+name: Bug report
+description: A result that is wrong, blocked unexpectedly, or does not match the documentation.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Use synthetic data only. Do not paste customer records, credentials, or private files.
+  - type: textarea
+    id: case
+    attributes:
+      label: Reproducible case
+      description: Input shape (columns, contract settings) and the command you ran.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Paste the actual output or the relevant JSON excerpt.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version, agent and version, install method.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I ran `python skills/reporting/scripts/check_examples.py` and included its result if it failed.

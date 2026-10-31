@@ -1,0 +1,27 @@
+{
+  "columns": {
+    "date": "date",
+    "product": "product",
+    "quantity": "quantity",
+    "revenue": "revenue",
+    "cost": "cost",
+    "currency": "currency",
+    "unique_id": "line_id"
+  },
+  "periods": {
+    "prior": {
+      "label": "January 2026",
+      "start": "2026-01-01",
+      "end": "2026-01-31"
+    },
+    "current": {
+      "label": "February 2026",
+      "start": "2026-02-01",
+      "end": "2026-02-28"
+    }
+  },
+  "date_format": "%Y-%m-%d",
+  "decimal_separator": ".",
+  "thousands_separator": ",",
+  "quantity_unit": "item"
+}

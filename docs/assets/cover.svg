@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">Reporting Skills — Revenue up. Profit down.</title><desc id="desc">Know what changed. Synthetic example: net revenue 9,000 to 10,000 USD, gross profit 4,200 to 3,200 USD. By Muhammet Mustafa Bolat.</desc>
+<rect width="1280" height="640" fill="#111e24"/>
+<path d="M0 80 H1280 M0 560 H1280 M752 80 V560" stroke="#26373e"/>
+<g font-family="Arial,DejaVu Sans,sans-serif">
+<rect x="64" y="120" width="10" height="10" rx="2" fill="#91e7c5"/>
+<text x="92" y="133" fill="#91e7c5" font-size="20" font-weight="bold" letter-spacing="3">REPORTING SKILLS</text>
+<text x="60" y="255" fill="#f5f5ee" font-size="66" font-weight="bold" letter-spacing="-2">Revenue up.</text>
+<text x="60" y="338" fill="#91e7c5" font-size="66" font-weight="bold" letter-spacing="-2">Profit down.</text>
+<text x="64" y="404" fill="#c2d0cf" font-size="27">Know what changed.</text>
+<text x="64" y="495" fill="#95a8aa" font-size="16" letter-spacing="2">SALES / MARGIN / MIX</text>
+<text x="820" y="186" fill="#95a8aa" font-size="16" letter-spacing="2">SYNTHETIC EXAMPLE · USD</text>
+<text x="820" y="246" fill="#edf4ee" font-size="22">Net revenue</text><text x="1168" y="246" text-anchor="end" fill="#91e7c5" font-size="22">+11.1%</text>
+<rect x="820" y="264" width="225" height="8" rx="4" fill="#3b5a55"/><text x="1168" y="272" text-anchor="end" fill="#95a8aa" font-size="14">Jan 9,000</text>
+<rect x="820" y="284" width="250" height="8" rx="4" fill="#91e7c5"/><text x="1168" y="292" text-anchor="end" fill="#edf4ee" font-size="14">Feb 10,000</text>
+<text x="820" y="350" fill="#edf4ee" font-size="22">Gross profit</text><text x="1168" y="350" text-anchor="end" fill="#ffb38b" font-size="22">−23.8%</text>
+<rect x="820" y="368" width="105" height="8" rx="4" fill="#5b4a42"/><text x="1168" y="376" text-anchor="end" fill="#95a8aa" font-size="14">Jan 4,200</text>
+<rect x="820" y="388" width="80" height="8" rx="4" fill="#ffb38b"/><text x="1168" y="396" text-anchor="end" fill="#edf4ee" font-size="14">Feb 3,200</text>
+<text x="820" y="466" fill="#95a8aa" font-size="18">Same prices. Same unit costs.</text>
+<text x="820" y="498" fill="#edf4ee" font-size="21">A different product mix.</text>
+<text x="64" y="605" fill="#d3dfdb" font-size="18">MUHAMMET MUSTAFA BOLAT</text>
+<text x="1216" y="605" text-anchor="end" fill="#95a8aa" font-size="16">OPEN SOURCE · MIT</text>
+</g></svg>

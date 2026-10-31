@@ -1,0 +1,5 @@
+line_id,date,product,quantity,revenue,cost,currency
+P1,2026-01-10,Premium,80,8000,4000,USD
+P2,2026-01-15,Basic,20,1000,800,USD
+C1,2026-02-10,Premium,40,4000,2000,USD
+C2,2026-02-15,Basic,120,6000,4800,USD
